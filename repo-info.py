@@ -6,7 +6,7 @@ API_ENDPOINT = "http://115.115.91.60:5432/train"
 data = {
 	"url": "https://github.com/yashtest11111/xgboost_yash7.git",
 	"branch_name": "master",
-	"user_name": "yash7@gmail.com"
+	"user_name": "demo_mlops@gmail.com"
 }
 # sending post request and saving response as response object
 r = requests.post(url = API_ENDPOINT, data = data)
